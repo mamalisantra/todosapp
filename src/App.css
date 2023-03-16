@@ -1,0 +1,68 @@
+.App {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  position: relative;
+}
+
+.todo-list-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  min-width: 800px;
+  width: 100%;
+}
+
+.todo-list-table td,
+.todo-list-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.todo-list-table tr:nth-child(even) {
+  background-color: #1a1a1ab3;
+}
+
+.todo-list-table tr:hover {
+  background-color: #1a1a1ab3;
+}
+
+.todo-list-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #747bff;
+  color: white;
+}
+
+.user-details{
+  background-color: #1a1a1ab3;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  right: 2rem;
+  max-width: 500px;
+  width:100%;
+}
+
+.user-details h3{
+  color: gray;
+}
+
+.search-field{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.sort-btn{
+  background-color: blue;
+  padding: 3px 10px;
+  cursor:pointer
+}
